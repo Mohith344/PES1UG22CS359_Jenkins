@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'g++ -o PES1UG22CS359-1 main.cpp' // Compiles C++ file
+                sh 'g++ -o PES1UG22CS359-1 main/hello.cpp' // Update the path to the C++ file
             }
         }
         stage('Test') {
